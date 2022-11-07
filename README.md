@@ -28,7 +28,11 @@ mvn clean package && spark-submit --class org.cannotsay.Main --master local[*] -
 
 __Input path__
 
-Add your json files under the `raw` zone at : `src/java/resources`.
+Add your json files under the `raw` zone at : `src/java/resources/raw`.
+
+__Outup path__
+
+Find your outputs under the `trusted` zone at : `src/java/resources/trusted`.
 
 ### Zones
 
