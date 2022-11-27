@@ -47,11 +47,11 @@ Find your outputs under the `trusted` zone at : `src/java/resources/trusted`.
   - Using json for its readability, should use `parquet` instead
 - Use Spark `OutagesStagingStreamReader` to read `json` contents to a Spark stream.
 - Process data with `OutagesStreamProcessor`
-- Start stream querying
+- Start stream querying (application will keep running in the background)
 - Per each stream batch call `OutageSink` for filtering and driving contents to wither `business` or `customer` `trust` areas.
 
 ## Future improvements
 
 - Parse `postal codes` as a list of elements
 - Parse `locations` as a list of elements
-- Replace formats from `json` to `parquet`
+- Replace formats from `json` to `parquet` for performance increase.
