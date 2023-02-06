@@ -1,4 +1,4 @@
-# Meetup trends Stream
+# Outages processor
 
 ## Tech stack
 
